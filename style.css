@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    background-color: rgb(225, 230, 230);
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    margin: auto;
+    width: 50% auto;
+
+
+}
+.row1, .row2, .row3, .row4{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0%;
+    
+}
+
+div{
+
+    background-color: white;
+    border: 1px solid black;
+    
+    padding: 20px;
+}
