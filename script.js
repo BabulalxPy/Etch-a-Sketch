@@ -1,5 +1,36 @@
 const container = document.querySelector(".container");
 
+
+function makeRows(rows, cols){
+    let container = document.querySelector(".container");
+    for(i = 0; i < (rows); i++){
+        let row = document.createElement("div");
+        let col = document.createElement("button");
+        col.textContent = "";
+        row.appendChild(col).className = "col";
+        col.addEventListener("click", () =>{
+            cell.style.backgroundColor = "green";
+        });
+        container.appendChild(row).className = "row";
+    }
+    for(i = 0; i < (cols); i++){
+        let row = document.querySelector("div");
+        
+    }
+}
+
+makeRows(5,5)
+let col = document.querySelector("button");
+
+
+
+
+
+
+
+
+
+
 const row1 = document.createElement("div");
 row1.classList.add("row1");
 const row2 = document.createElement("div");
@@ -9,39 +40,73 @@ row3.classList.add("row3");
 const row4 = document.createElement("div");
 row4.classList.add("row4");
 
-const div1 = document.createElement("div");
-const div2 = document.createElement("div");
-const div3 = document.createElement("div");
-const div4 = document.createElement("div");
-const div5 = document.createElement("div");
-const div6 = document.createElement("div");
-const div7 = document.createElement("div");
-const div8 = document.createElement("div");
-const div9 = document.createElement("div");
-const div10 = document.createElement("div");
-const div11 = document.createElement("div");
-const div12 = document.createElement("div");
-const div13 = document.createElement("div");
-const div14 = document.createElement("div");
-const div15 = document.createElement("div");
-const div16 = document.createElement("div");
+const div1 = document.createElement("button");
+const div2 = document.createElement("button");
+const div3 = document.createElement("button");
+const div4 = document.createElement("button");
+const div5 = document.createElement("button");
+const div6 = document.createElement("button");
+const div7 = document.createElement("button");
+const div8 = document.createElement("button");
+const div9 = document.createElement("button");
+const div10 = document.createElement("button");
+const div11 = document.createElement("button");
+const div12 = document.createElement("button");
+const div13 = document.createElement("button");
+const div14 = document.createElement("button");
+const div15 = document.createElement("button");
+const div16 = document.createElement("button");
 
-div1.textContent = "";
-div2.textContent = "";
-div3.textContent = "";
-div4.textContent = "";
-div5.textContent = "";
-div6.textContent = "";
-div7.textContent = "";
-div8.textContent = "";
-div9.textContent = "";
-div10.textContent = "";
-div11.textContent = "";
-div12.textContent = "";
-div13.textContent = "";
-div14.textContent = "";
-div15.textContent = "";
-div16.textContent = "";
+div1.addEventListener("mouseover", () => {
+    div1.style.backgroundColor = "green";
+});
+div2.addEventListener("mouseover", () => {
+    div2.style.backgroundColor = "green";
+});
+div3.addEventListener("mouseover", () => {
+    div3.style.backgroundColor = "green";
+});
+div4.addEventListener("mouseover", () => {
+    div4.style.backgroundColor = "yellow";
+});
+div5.addEventListener("mouseover", () => {
+    div5.style.backgroundColor = "green";
+});
+div6.addEventListener("mouseover", () => {
+    div6.style.backgroundColor = "beige";
+});
+div7.addEventListener("mouseover", () => {
+    div7.style.backgroundColor = "violet";
+});
+div8.addEventListener("mouseover", () => {
+    div8.style.backgroundColor = "green";
+});
+div9.addEventListener("mouseover", () => {
+    div9.style.backgroundColor = "blue";
+});
+div10.addEventListener("mouseover", () => {
+    div10.style.backgroundColor = "green";
+});
+div11.addEventListener("mouseover", () => {
+    div11.style.backgroundColor = "green";
+});
+div12.addEventListener("mouseover", () => {
+    div12.style.backgroundColor = "red";
+});
+div13.addEventListener("mouseover", () => {
+    div13.style.backgroundColor = "green";
+});
+div14.addEventListener("mouseover", () => {
+    div14.style.backgroundColor = "purple";
+});
+div15.addEventListener("mouseover", () => {
+    div15.style.backgroundColor = "pink";
+});
+div16.addEventListener("mouseover", () => {
+    div16.style.backgroundColor = "maroon";
+});
+
+
 
 row1.appendChild(div1);
 row1.appendChild(div2);
