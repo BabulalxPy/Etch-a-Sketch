@@ -1,3 +1,11 @@
+h1{
+    left: 50%;
+    top: 50%;
+    justify-self: center;
+}
+
+
+
 .container{
     display: flex;
     background-color: rgb(225, 230, 230);
@@ -6,9 +14,7 @@
     height: fit-content;
     justify-content: center;
     margin: auto;
-
-    top: 50%;
-    left: 50%;
+    
 }
 .row{
     background-color: yellow;
