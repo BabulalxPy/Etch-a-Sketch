@@ -1,4 +1,4 @@
-function makeRows(rows, cols){
+function makeGrid(rows, cols){
     let container = document.querySelector(".container");
     for(i = 0;i < rows; i++){
         let row = document.createElement("div")
@@ -33,9 +33,18 @@ function gridSize(){
         alert("Maximum is 64");
         r = '';
         
-    }
+    };
     //const c = inp.value;
-    makeRows(r,r);
+    
+    function deleteGridElements(){
+        const allDiv = document.querySelectorAll(".row");
+        allDiv.forEach((allDiv)=>{
+            allDiv.remove();
+        });
+    };
+    deleteGridElements();
+
+    makeGrid(r,r);
     ip.focus;
 };
 const btn = document.querySelector("button");
