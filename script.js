@@ -6,7 +6,7 @@ function makeGrid(rows, cols){
         for(j = 0;j < cols; j++){
             let col = document.createElement("button");
             col.textContent = "";
-            col.addEventListener("mouseover", () =>{
+            col.addEventListener("mousemove", () =>{
                 col.style.backgroundColor = "black";
             });
 
